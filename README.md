@@ -2,6 +2,13 @@
 
 This project serves as a starter template for backend development using Node.js, Express.js, Prisma, Swagger, ESLint, and PostgreSQL. It provides a solid foundation for building scalable and maintainable web applications.
 
+## Created by: Kukuh Tri Winarno Nugroho & Verdy Bangkit Yudho Negoro
+
+- LinkedIn: [Kukuh Tri Winarno Nugroho](https://www.linkedin.com/in/kukuhtri99/) , [Verdy Bangkit Yudho Negoro](https://www.linkedin.com/in/verkit/)
+- Website: [kukuhtri.my.id](https://kukuhtri.my.id/)
+
+---
+
 ## Features
 
 - **Node.js and Express.js:** Fast, unopinionated, minimalist web framework for Node.js.

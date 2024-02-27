@@ -1,7 +1,7 @@
 // src/routes/loginRoute.js
 const express = require('express')
-const loginController = require('../controllers/loginController')
-const loginMiddleware = require('../middleware/loginMiddleware')
+const authController = require('../controllers/authController')
+const authMiddleware = require('../middleware/authMiddleware')
 // const { specs } = require('../../swagger/swagger') // Update the path accordingly
 
 const router = express.Router()
@@ -40,6 +40,6 @@ const router = express.Router()
  *       500:
  *         description: Internal Server Error.
  */
-router.post('/login', loginMiddleware, loginController)
+router.post('/login', authMiddleware, authController)
 
 module.exports = router

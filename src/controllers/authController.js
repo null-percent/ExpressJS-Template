@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const { User } = require('../generated/prisma-client') // Assuming you have a User model from Prisma
 
-const loginController = async (req, res) => {
+const authController = async (req, res) => {
   try {
     // Validate request body
     const errors = validationResult(req)
@@ -46,4 +46,4 @@ const loginController = async (req, res) => {
   }
 }
 
-module.exports = loginController
+module.exports = authController
