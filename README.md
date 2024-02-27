@@ -48,7 +48,11 @@ To get a local copy up and running, follow these simple steps:
 
 4. Set up the PostgreSQL database:
 
-   - Create a new database and update the database configuration in `prisma/.env`.
+   - Create a new database and update the database configuration in `prisma/.env`. also change your database schema in prisma/schme.prisma. and then run this :
+
+   ```bash
+   npx prisma generate
+   ```
 
 5. Run database migrations:
 
