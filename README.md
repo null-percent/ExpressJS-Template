@@ -24,13 +24,13 @@ To get a local copy up and running, follow these simple steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/kukuhtri1999/NodeJS---TaskMagnet.git
+   git clone https://github.com/null-percent/ExpressJS-Template.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd TaskMagnet
+   cd ExpressJs-Template
    ```
 
 3. Install dependencies:
